@@ -20,8 +20,8 @@ h3{
 
 .sign1{
 	position: absolute;
-	left:58.5%;
-	top: 62%;
+	left:57%;
+	top: 65%;
 	float: left;
 	display: inline;
 	border-radius: 3px;
@@ -33,27 +33,121 @@ h3{
 
 .box_head{
 	width: 100%;
-	height: 210px;
+	height: 280px;
 	background:#808080;
 	position: relative;
 	top:10px;
+	opacity:0.3;
 	
 }
 
-p{
+.box_head p{
 	position: absolute;
-	bottom:20px;
-	left: 32%;
+	top:20px;
+	left: 31%;
 	text-align: center;
 	font-size: 25px;
 	color:white;
     padding: 50px;
 }
 
+.box1{
+width: 100%;
+	height: 200px;
+	background:#F5F3F3;
+	position: relative;
+	top:0px;	
+}
+
+.monitor p{
+	position: absolute;
+	top: 35px;
+	right:68%;
+	text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
+
+.sobrepuesto p{
+	position: absolute;
+	top:35px;
+	left: 38%;
+	text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
+.hecho p{
+	position: absolute;
+	top:35px;
+	left: 68%;
+	text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
+.monitor img{
+	position: absolute;
+	left: 18%;
+	top: 35px;
+	width: 35px;
+	height: 35px;
+
+}
+
+.sobrepuesto img{
+	position: absolute;
+	left: 50.5%;
+	top: 35px;
+	width: 35px;
+	height: 35px;
+
+}
+
+.hecho img{
+	position: absolute;
+	left: 81%;
+	top: 35px;
+	width: 35px;
+	height: 35px;
+
+}
+
+.monitor h3 {
+	position: absolute;
+	left: 14%;
+	top: 60px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.sobrepuesto h3 {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.hecho h3 {
+	position: absolute;
+	left: 79%;
+	top: 30%;
+	font-family: verdana;
+	font-weight: bold;
+}
+
 .signin_email{
 	position: absolute;
 	width: 250px;
-	right:41.5%;
+	right:43%;
 	bottom: 26%;
 	float:right;
 	display: inline;
