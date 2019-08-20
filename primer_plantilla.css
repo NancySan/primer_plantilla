@@ -33,13 +33,38 @@ h3{
 
 .box_head{
 	width: 100%;
-	height: 280px;
+	height: 300px;
 	background:#808080;
 	position: relative;
 	top:10px;
-	opacity:0.3;
 	
 }
+
+.box1{
+    width: 100%;
+	height: 180px;
+	background:#F5F3F3;
+	position: relative;
+	top:0px;	
+}
+
+.box2{
+    width: 50%;
+	height: 220px;
+	background:blue;
+	position: relative;
+	top:180px;	
+	
+}
+
+.box3{
+    width: 50%;
+	height: 220px;
+	position: relative;
+	bottom:40px;	
+	left:50%;
+}
+
 
 .box_head p{
 	position: absolute;
@@ -51,13 +76,6 @@ h3{
     padding: 50px;
 }
 
-.box1{
-width: 100%;
-	height: 200px;
-	background:#F5F3F3;
-	position: relative;
-	top:0px;	
-}
 
 .monitor p{
 	position: absolute;
@@ -93,6 +111,17 @@ width: 100%;
     padding: 50px;
 }
 
+.box2 p{
+	position: absolute;
+	top:25px;
+	left:3%;
+	text-align: left;
+	font-size: 15px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
 .monitor img{
 	position: absolute;
 	left: 18%;
@@ -117,7 +146,6 @@ width: 100%;
 	top: 35px;
 	width: 35px;
 	height: 35px;
-
 }
 
 .monitor h3 {
@@ -126,6 +154,11 @@ width: 100%;
 	top: 60px;
 	font-family: verdana;
 	font-weight: bold;
+}
+
+.box3 img{
+	width: 100%;
+	height: 220px;
 }
 
 .sobrepuesto h3 {
@@ -144,6 +177,16 @@ width: 100%;
 	font-weight: bold;
 }
 
+.box2 h3{
+	position: absolute;
+	left: 67px;
+	top: 40px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: left;
+
+}
+
 .signin_email{
 	position: absolute;
 	width: 250px;
@@ -156,3 +199,4 @@ width: 100%;
 	padding: 5px;
 	color:#FEFDFD;
 }
+
