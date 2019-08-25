@@ -114,6 +114,14 @@ h3{
 	left:50%;
 }
 
+.box8{
+	width: 100%;
+	height: 300px;
+	background:#F5F3F3;
+	position: relative;
+	bottom: 660px;
+}
+
 .box_head p{
 	position: absolute;
 	top:20px;
@@ -192,6 +200,40 @@ h3{
     padding: 50px;
 }
 
+.mujer p{
+	position: absolute;
+	top:160px;
+	left:17%;
+	text-align: left;
+	font-size: 12px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
+.hombre p{
+	position: absolute;
+	top:160px;
+	left:36.5%;
+	text-align: center;
+	font-size: 12px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
+.mujer1 p{
+	position: absolute;
+	top:160px;
+	left:58%;
+	text-align: left;
+	font-size: 12px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+}
+
+
 .monitor img{
 	position: absolute;
 	left: 18%;
@@ -229,6 +271,31 @@ h3{
 .box7 img{
 	width: 100%;
 	height: 220px;
+}
+
+.mujer img{
+	position: absolute;
+	left: 26%;
+	top: 90px;
+	width: 100px;
+	height: 100px;
+}
+
+.hombre img{
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	width: 130px;
+	height: 130px;
+}
+
+.mujer1 img{
+	position: absolute;
+	left: 65%;
+	top: 90px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
 }
 
 .monitor h3 {
@@ -281,3 +348,42 @@ h3{
 	font-weight: bold;
 	text-align: left;
 }
+
+.box8 h3{
+	top: 30px;
+	left:560px;
+    position: absolute;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.mujer h4{
+	position: absolute;
+	left: 26.9%;
+	top: 180px;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: left;
+}
+
+.hombre h4{
+	position: absolute;
+	left: 48.3%;
+	top: 180px;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: left;
+}
+
+.mujer1 h4{
+	position: absolute;
+	left: 66.5%;
+	top: 180px;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: left;
+}
+
