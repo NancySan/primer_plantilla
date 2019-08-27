@@ -31,7 +31,33 @@ h3{
 	color:#FEFDFD;
 }
 
+.sign2{
+	position: absolute;
+	left:57%;
+	top: 57%;
+	float: left;
+	display: inline;
+	border-radius: 3px;
+	border: 0;
+	padding: 6px;
+	background-color:#13A2D5;
+	color:#FEFDFD;
+}
+
 .signin_email{
+	position: absolute;
+	width: 250px;
+	right:43%;
+	bottom: 26%;
+	float:right;
+	display: inline;
+	border-radius: 3px;
+	border: 0;
+	padding: 5px;
+	color:#FEFDFD;
+}
+
+.signin_email1{
 	position: absolute;
 	width: 250px;
 	right:43%;
@@ -63,10 +89,9 @@ h3{
 .box2{
     width: 50%;
 	height: 220px;
-	background:blue;
+	background:white;
 	position: relative;
 	top:0px;	
-	opacity: 0.3;
 }
 
 .box3{
@@ -75,7 +100,6 @@ h3{
 	position: relative;
 	bottom:220px;	
 	left:50%;
-	opacity: 0.3;
 }
 
 .box4{
@@ -90,20 +114,18 @@ h3{
     width: 50%;
 	height: 220px;
 	left: 50%;
-	background:blue;
+	background:white;
 	position: relative;
 	bottom: 440px;	
-	opacity: 0.3;
 }
 
 .box6{
     width: 50%;
 	height: 220px;
 	left:0%;
-	background:blue;
+	background:white;
 	position: relative;
 	bottom:440px;	
-	opacity: 0.3;
 }
 
 .box7{
@@ -120,6 +142,22 @@ h3{
 	background:#F5F3F3;
 	position: relative;
 	bottom: 660px;
+}
+
+.box_foot{
+	width: 100%;
+	height: 160px;
+	background:#808080;
+	position: relative;
+	bottom: 660px;
+}
+
+.end {
+	width: 100%;
+	height: 90px;
+	background:white;
+	position: relative;
+	bottom: 676px;
 }
 
 .box_head p{
@@ -233,6 +271,16 @@ h3{
     padding: 50px;
 }
 
+.box_foot p{
+	position: absolute;
+	bottom: 10px;
+	left: 35%;
+	text-align: center;
+	font-size: 21px;
+	color:white;
+    padding: 50px;
+}
+
 
 .monitor img{
 	position: absolute;
@@ -296,6 +344,30 @@ h3{
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
+}
+
+.face img{
+position: absolute;
+	left: 65%;
+	top: 25px;
+	width: 30px;
+	height: 30px;
+}
+
+.twitter img{
+	position: absolute;
+	left: 68.2%;
+	top: 28px;
+	width: 24px;
+	height: 24px;
+}
+
+.insta img{
+	position: absolute;
+	left: 71%;
+	top: 27px;
+	width: 25px;
+	height: 25px;
 }
 
 .monitor h3 {
@@ -385,5 +457,28 @@ h3{
 	font-family: verdana;
 	font-weight: bold;
 	text-align: left;
+}
+
+.end h4{
+	position: absolute;
+	left: 20.5%;
+	top: 30px;
+	font-size: 10px;
+	font-family: verdana;
+	text-align: left;
+}
+
+
+.end li{
+	position: relative;
+	left: 18%;
+	top: 20px;
+	display: inline-block;
+	color: #56B0E8;
+	font-family: verdana;
+	font-size: 10px;
+	padding: 5px;
+	border:0;
+	list-style-type:circle;
 }
 
