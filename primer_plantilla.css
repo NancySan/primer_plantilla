@@ -1,3 +1,10 @@
+.contenedor{
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+overflow: hidden;
+}
+
 h3{
 	font-size: 15px;
 	font-weight: normal;
@@ -20,8 +27,8 @@ h3{
 
 .sign1{
 	position: absolute;
-	left:57%;
-	top: 65%;
+	left:60%;
+	top: 63%;
 	float: left;
 	display: inline;
 	border-radius: 3px;
@@ -33,7 +40,7 @@ h3{
 
 .sign2{
 	position: absolute;
-	left:57%;
+	left:60%;
 	top: 57%;
 	float: left;
 	display: inline;
@@ -47,8 +54,8 @@ h3{
 .signin_email{
 	position: absolute;
 	width: 250px;
-	right:43%;
-	bottom: 26%;
+	right:40%;
+	bottom: 28%;
 	float:right;
 	display: inline;
 	border-radius: 3px;
@@ -60,7 +67,7 @@ h3{
 .signin_email1{
 	position: absolute;
 	width: 250px;
-	right:43%;
+	right:40%;
 	bottom: 26%;
 	float:right;
 	display: inline;
@@ -162,47 +169,50 @@ h3{
 
 .box_head p{
 	position: absolute;
-	top:20px;
-	left: 31%;
-	text-align: center;
+	top:6px;
+	left: 27%;
 	font-size: 25px;
 	color:white;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 
 .monitor p{
 	position: absolute;
 	top: 35px;
-	right:68%;
+	right:60%;
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 
 .sobrepuesto p{
 	position: absolute;
 	top:35px;
-	left: 38%;
+	left: 34%;
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .hecho p{
 	position: absolute;
 	top:35px;
-	left: 68%;
+	left: 60%;
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .box2 p{
@@ -214,6 +224,7 @@ h3{
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .box5 p{
@@ -225,6 +236,7 @@ h3{
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .box6 p{
@@ -236,55 +248,60 @@ h3{
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .mujer p{
 	position: absolute;
 	top:160px;
-	left:17%;
+	left:15%;
 	text-align: left;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .hombre p{
 	position: absolute;
 	top:160px;
-	left:36.5%;
+	left:36%;
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .mujer1 p{
 	position: absolute;
 	top:160px;
-	left:58%;
+	left:59%;
 	text-align: left;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .box_foot p{
 	position: absolute;
 	bottom: 10px;
-	left: 35%;
+	left: 30%;
 	text-align: center;
 	font-size: 21px;
 	color:white;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 
 .monitor img{
 	position: absolute;
-	left: 18%;
+	left: 23%;
 	top: 35px;
 	width: 35px;
 	height: 35px;
@@ -292,7 +309,7 @@ h3{
 
 .sobrepuesto img{
 	position: absolute;
-	left: 50.5%;
+	left: 49%;
 	top: 35px;
 	width: 35px;
 	height: 35px;
@@ -300,7 +317,7 @@ h3{
 
 .hecho img{
 	position: absolute;
-	left: 81%;
+	left: 75%;
 	top: 35px;
 	width: 35px;
 	height: 35px;
@@ -349,38 +366,38 @@ h3{
 .face img{
 position: absolute;
 	left: 65%;
-	top: 25px;
-	width: 30px;
-	height: 30px;
+	top: 27px;
+	width: 2.8%;
+	height: auto;
 }
 
 .twitter img{
 	position: absolute;
 	left: 68.2%;
 	top: 28px;
-	width: 24px;
-	height: 24px;
+	width: 2.5%;
+	height: auto;
 }
 
 .insta img{
 	position: absolute;
 	left: 71%;
-	top: 27px;
-	width: 25px;
-	height: 25px;
+	top: 28px;
+	width: 2.5%;
+	height: auto;
 }
 
 .monitor h3 {
 	position: absolute;
-	left: 14%;
-	top: 60px;
+	left: 18%;
+	top: 56px;
 	font-family: verdana;
 	font-weight: bold;
 }
 
 .sobrepuesto h3 {
 	position: absolute;
-	left: 50%;
+	left: 48%;
 	top: 30%;
 	font-family: verdana;
 	font-weight: bold;
@@ -388,7 +405,7 @@ position: absolute;
 
 .hecho h3 {
 	position: absolute;
-	left: 79%;
+	left: 72%;
 	top: 30%;
 	font-family: verdana;
 	font-weight: bold;
@@ -423,7 +440,7 @@ position: absolute;
 
 .box8 h3{
 	top: 30px;
-	left:560px;
+	left:42%;
     position: absolute;
 	font-family: verdana;
 	font-weight: bold;
@@ -480,5 +497,12 @@ position: absolute;
 	padding: 5px;
 	border:0;
 	list-style-type:circle;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px){
+	.contenedor{
+		width: 100%;
+	}
 }
 
