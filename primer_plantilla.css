@@ -2,20 +2,34 @@
 width: 100%;
 max-width: 1000px;
 margin: 0 auto;
-overflow: hidden;
+
+display: grid;
+grid-template-columns:(1fr 1fr);
+grid-template-rows: minmax(30px, auto)
+					minmax(300px, auto)
+					minmax(180px, auto) 
+					minmax(220px, auto)
+					minmax(220px, auto) 
+					minmax(220px, auto) 
+					minmax(300px, auto)
+					minmax(160px, auto) 
+					minmax(90px, auto);
+
+grid-template-areas: "header header"
+					 "box_head box_head"
+					"boxA boxA"
+					"boxB boxC"
+					"boxD boxE"
+					"boxF boxG"
+					"boxH boxH"
+					"box_foot box_foot"
+					"END END"
 }
 
-h3{
-	font-size: 15px;
-	font-weight: normal;
-	display: inline;
-	position: relative;
-	left: 20%;
-}
-.sign{
+
+/* BUTTOMS */
+.sign, .sign1, .sign2{
 	position: absolute;
-	left:70%;
-	top: 1%;
 	float: left;
 	display: inline;
 	border-radius: 3px;
@@ -23,58 +37,45 @@ h3{
 	padding: 6px;
 	background-color:#13A2D5;
 	color:#FEFDFD;
+}
+
+.sign{
+	left:70%;
+	top: 1%;
 }
 
 .sign1{
-	position: absolute;
 	left:60%;
 	top: 63%;
-	float: left;
-	display: inline;
-	border-radius: 3px;
-	border: 0;
-	padding: 6px;
-	background-color:#13A2D5;
-	color:#FEFDFD;
 }
 
 .sign2{
-	position: absolute;
 	left:60%;
 	top: 57%;
-	float: left;
+}
+
+.signin_email, .signin_email1{
+	position: absolute;
+	width: 250px;
+	right:40%;
+	float:right;
 	display: inline;
 	border-radius: 3px;
 	border: 0;
-	padding: 6px;
-	background-color:#13A2D5;
-	color:#FEFDFD;
+	padding: 5px;
 }
 
 .signin_email{
-	position: absolute;
-	width: 250px;
-	right:40%;
 	bottom: 28%;
-	float:right;
-	display: inline;
-	border-radius: 3px;
-	border: 0;
-	padding: 5px;
-	color:#FEFDFD;
 }
 
 .signin_email1{
-	position: absolute;
-	width: 250px;
-	right:40%;
-	bottom: 26%;
-	float:right;
-	display: inline;
-	border-radius: 3px;
-	border: 0;
-	padding: 5px;
-	color:#FEFDFD;
+    bottom: 26%;
+}
+
+/*ESPECIFICACIONES GENERALES */
+header{
+	grid-area: header;
 }
 
 .box_head{
@@ -82,73 +83,61 @@ h3{
 	height: 300px;
 	background:#808080;
 	position: relative;
-	top:10px;
+	grid-area: box_head;
 }
 
-.box1{
+.boxA{
     width: 100%;
 	height: 180px;
 	background:#F5F3F3;
 	position: relative;
-	top:0px;	
+	grid-area: boxA; 	
 }
 
-.box2{
-    width: 50%;
+.boxB, .boxE, .boxF{
+    width: 100%;
 	height: 220px;
 	background:white;
-	position: relative;
-	top:0px;	
+	position: relative;	
 }
 
-.box3{
-    width: 50%;
+.boxB{
+	grid-area: boxB;
+}
+
+.boxE{
+	grid-area: boxE;
+}
+
+.boxF{
+	grid-area: boxF;
+}
+
+.boxC, .boxD, .boxG{
+    width: 100%;
 	height: 220px;
 	position: relative;
-	bottom:220px;	
-	left:50%;
 }
 
-.box4{
-    width: 50%;
-	height: 220px;
-	position: relative;
-	bottom:220px;	
-	left:0%;
+.boxC{
+	grid-area: boxC;
 }
 
-.box5{
-    width: 50%;
-	height: 220px;
-	left: 50%;
-	background:white;
-	position: relative;
-	bottom: 440px;	
+.boxD{
+	grid-area: boxD;	
 }
 
-.box6{
-    width: 50%;
-	height: 220px;
-	left:0%;
-	background:white;
-	position: relative;
-	bottom:440px;	
+
+.boxG{
+	grid-area: boxG;
 }
 
-.box7{
-    width: 50%;
-	height: 220px;
-	position: relative;
-	bottom:660px;	
-	left:50%;
-}
-
-.box8{
+.boxH{
 	width: 100%;
 	height: 300px;
 	background:#F5F3F3;
 	position: relative;
-	bottom: 660px;
+	grid-area: boxH;
 }
 
 .box_foot{
@@ -156,19 +145,20 @@ h3{
 	height: 160px;
 	background:#808080;
 	position: relative;
-	bottom: 660px;
+	grid-area: box_foot;
 }
 
-.end {
+.END {
 	width: 100%;
 	height: 90px;
 	background:white;
 	position: relative;
-	bottom: 676px;
+	grid-area: END;
 }
 
+/* PARRAFOS */
 .box_head p{
-	position: absolute;
+    position: absolute;
 	top:6px;
 	left: 27%;
 	font-size: 25px;
@@ -177,11 +167,9 @@ h3{
     box-sizing: border-box;
 }
 
-
-.monitor p{
+.p p{
 	position: absolute;
 	top: 35px;
-	right:60%;
 	text-align: center;
 	font-size: 12px;
 	font-family: verdana;
@@ -190,83 +178,21 @@ h3{
     box-sizing: border-box;
 }
 
+	.monitor p{
+    left: 10%;
+	}
 
-.sobrepuesto p{
-	position: absolute;
-	top:35px;
-	left: 34%;
-	text-align: center;
-	font-size: 12px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
+	.sobrepuesto p{
+		left: 34%;
+	}
 
-.hecho p{
-	position: absolute;
-	top:35px;
-	left: 60%;
-	text-align: center;
-	font-size: 12px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
+	.hecho p{
+		left: 60%;
+	}
 
-.box2 p{
-	position: absolute;
-	top:25px;
-	left:3%;
-	text-align: left;
-	font-size: 15px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-.box5 p{
-	position: absolute;
-	top:25px;
-	left:3%;
-	text-align: left;
-	font-size: 15px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-.box6 p{
-	position: absolute;
-	top:25px;
-	left:3%;
-	text-align: left;
-	font-size: 15px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-.mujer p{
+.parr p{
 	position: absolute;
 	top:160px;
-	left:15%;
-	text-align: left;
-	font-size: 10px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
-
-.hombre p{
-	position: absolute;
-	top:160px;
-	left:36%;
 	text-align: center;
 	font-size: 10px;
 	font-family: verdana;
@@ -275,17 +201,16 @@ h3{
     box-sizing: border-box;
 }
 
-.mujer1 p{
-	position: absolute;
-	top:160px;
-	left:59%;
-	text-align: left;
-	font-size: 10px;
-	font-family: verdana;
-	color:black;
-    padding: 50px;
-    box-sizing: border-box;
-}
+	.mujer p{
+	    left: 11%;
+	}
+	.hombre p{
+	    left: 34%;	
+	}
+
+	.mujer1 p{
+		left:59%;
+		}
 
 .box_foot p{
 	position: absolute;
@@ -298,42 +223,26 @@ h3{
     box-sizing: border-box;
 }
 
-
-.monitor img{
+/* IMAGENES */
+.img img{
 	position: absolute;
-	left: 23%;
 	top: 35px;
 	width: 35px;
 	height: 35px;
 }
 
-.sobrepuesto img{
-	position: absolute;
-	left: 49%;
-	top: 35px;
-	width: 35px;
-	height: 35px;
-}
+	.monitor img{
+		left: 23%;
+	}
+	.sobrepuesto img{
+		left: 49%;
+	}
 
-.hecho img{
-	position: absolute;
-	left: 75%;
-	top: 35px;
-	width: 35px;
-	height: 35px;
-}
+	.hecho img{
+		left: 75%;
+	}
 
-.box3 img{
-	width: 100%;
-	height: 220px;
-}
-
-.box4 img{
-	width: 100%;
-	height: 220px;
-}
-
-.box7 img{
+.boxCDG img{
 	width: 100%;
 	height: 220px;
 }
@@ -387,40 +296,35 @@ position: absolute;
 	height: auto;
 }
 
-.monitor h3 {
+/* TITULARES */
+.title h3 {
 	position: absolute;
-	left: 18%;
-	top: 56px;
 	font-family: verdana;
 	font-weight: bold;
 }
+	.monitor h3{
+		left: 18%;
+		top: 56px;
+	}
+	.sobrepuesto h3 {
+		left: 48%;
+		top: 30%;
+	}
 
-.sobrepuesto h3 {
-	position: absolute;
-	left: 48%;
-	top: 30%;
-	font-family: verdana;
-	font-weight: bold;
+	.hecho h3 {
+		left: 72%;
+		top: 30%;
+	}
+
+header h3{
+	font-size: 15px;
+	font-weight: normal;
+	display: inline;
+	position: relative;
+	left: 20%;
 }
 
-.hecho h3 {
-	position: absolute;
-	left: 72%;
-	top: 30%;
-	font-family: verdana;
-	font-weight: bold;
-}
-
-.box2 h3{
-	position: absolute;
-	left: 67px;
-	top: 40px;
-	font-family: verdana;
-	font-weight: bold;
-	text-align: left;
-}
-
-.box5 h3{
+.titleboxBEF h3{
 	position: absolute;
 	left: 67px;
 	top: 40px;
@@ -429,26 +333,16 @@ position: absolute;
 	text-align: left;
 }
 
-.box6 h3{
-	position: absolute;
-	left: 67px;
-	top: 40px;
-	font-family: verdana;
-	font-weight: bold;
-	text-align: left;
-}
-
-.box8 h3{
+.boxH h3{
+    position: absolute;
 	top: 30px;
 	left:42%;
-    position: absolute;
 	font-family: verdana;
 	font-weight: bold;
 }
 
-.mujer h4{
+.titleMH h4{
 	position: absolute;
-	left: 26.9%;
 	top: 180px;
 	font-size: 12px;
 	font-family: verdana;
@@ -456,37 +350,28 @@ position: absolute;
 	text-align: left;
 }
 
-.hombre h4{
-	position: absolute;
-	left: 48.3%;
-	top: 180px;
-	font-size: 12px;
-	font-family: verdana;
-	font-weight: bold;
-	text-align: left;
-}
+	.mujer h4{
+		left: 26.9%;
+	}
+	.hombre h4{
+		left: 48.3%;
+	}
 
-.mujer1 h4{
-	position: absolute;
-	left: 66.5%;
-	top: 180px;
-	font-size: 12px;
-	font-family: verdana;
-	font-weight: bold;
-	text-align: left;
-}
+	.mujer1 h4{
+		left: 66.5%;
+	}
 
-.end h4{
+.END h4{
 	position: absolute;
 	left: 20.5%;
-	top: 30px;
+	top: 45px;
 	font-size: 10px;
 	font-family: verdana;
 	text-align: left;
 }
 
 
-.end li{
+.END li{
 	position: relative;
 	left: 18%;
 	top: 20px;
@@ -500,9 +385,10 @@ position: absolute;
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
 	.contenedor{
 		width: 100%;
 	}
 }
+
 
