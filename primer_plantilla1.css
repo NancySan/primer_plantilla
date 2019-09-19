@@ -1,0 +1,392 @@
+.contenedor{
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+
+display: grid;
+grid-template-columns:(1fr 1fr);
+grid-template-rows: minmax(30px, auto)
+					minmax(300px, auto)
+					minmax(180px, auto) 
+					minmax(220px, auto)
+					minmax(220px, auto) 
+					minmax(220px, auto) 
+					minmax(300px, auto)
+					minmax(160px, auto) 
+					minmax(90px, auto);
+
+grid-template-areas: "header header"
+					 "box_head box_head"
+					"boxA boxA"
+					"boxB boxC"
+					"boxD boxE"
+					"boxF boxG"
+					"boxH boxH"
+					"box_foot box_foot"
+					"END END"
+}
+/*INPUTS */
+.sign, .sign1, .sign2 {
+	position: absolute;
+	float: left;
+	display: inline;
+	border-radius: 3px;
+	border: 0;
+	padding: 6px;
+	background-color:#13A2D5;
+	color:#FEFDFD;
+}
+
+.sign{
+	left:70%;
+	top: 1%;
+}
+
+.sign1{
+	left:60%;
+	top: 63%;
+}
+
+.sign2{
+	left:60%;
+	top: 57%;
+}
+
+.signin_email, .signin_email1{
+	position: absolute;
+	width: 250px;
+	right:40%;
+	float:right;
+	display: inline;
+	border-radius: 3px;
+	border: 0;
+	padding: 5px;
+	color:#FEFDFD;
+}
+
+.signin_email{
+	bottom: 28%;
+}
+
+.signin_email1{
+    bottom: 26%;
+}
+
+/*ESPECIFICACIONES GENERALES */
+header{
+	grid-area: header;
+}
+
+box_head{
+	width: 100%;
+	height: 300px;
+	background:#808080;
+	position: relative;
+	top: 5px;
+	grid-area: box_head;
+}
+
+.boxA{
+    width: 100%;
+	height: 180px;
+	background:#F5F3F3;
+	position: relative;
+	grid-area: boxA; 	
+}
+
+.boxB, .boxE, .boxF{
+    width: 100%;
+	height: 220px;
+	background:white;
+	position: relative;	
+}
+
+.boxB{
+	grid-area: boxB;
+}
+
+.boxE{
+	grid-area: boxE;
+}
+
+.boxF{
+	grid-area: boxF;
+}
+
+.boxC, .boxD, .boxG{
+    width: 100%;
+	height: 220px;
+	position: relative;
+}
+
+.boxC{
+	grid-area: boxC;
+}
+
+.boxD{
+	grid-area: boxD;	
+}
+
+
+.boxG{
+	grid-area: boxG;
+}
+
+.boxH{
+	width: 100%;
+	height: 300px;
+	background:#F5F3F3;
+	position: relative;
+	grid-area: boxH;
+}
+
+.box_foot{
+	width: 100%;
+	height: 160px;
+	background:#808080;
+	position: relative;
+	grid-area: box_foot;
+}
+
+.END {
+	width: 100%;
+	height: 90px;
+	background:white;
+	position: relative;
+	grid-area: END;
+}
+
+/* PARRAFOS */
+.box_head p{
+    position: absolute;
+	top:6px;
+	left: 27%;
+	font-size: 25px;
+	color:white;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.p p{
+	position: absolute;
+	top: 35px;
+	text-align: center;
+	font-size: 12px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+	.monitor p{
+    left: 10%;
+	}
+
+	.sobrepuesto p{
+		left: 34%;
+	}
+
+	.hecho p{
+		left: 60%;
+	}
+
+.parr p{
+	position: absolute;
+	top:160px;
+	text-align: center;
+	font-size: 10px;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+	.mujer p{
+	    left: 11%;
+	}
+	.hombre p{
+	    left: 34%;	
+	}
+
+	.mujer1 p{
+		left:59%;
+		}
+
+.box_foot p{
+	position: absolute;
+	bottom: 10px;
+	left: 30%;
+	text-align: center;
+	font-size: 21px;
+	color:white;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* IMAGENES */
+.img img{
+	position: absolute;
+	top: 35px;
+	width: 35px;
+	height: 35px;
+}
+
+	.monitor img{
+		left: 23%;
+	}
+	.sobrepuesto img{
+		left: 49%;
+	}
+
+	.hecho img{
+		left: 75%;
+	}
+
+.boxCDG img{
+	width: 100%;
+	height: 220px;
+}
+
+.mujer img{
+	position: absolute;
+	left: 26%;
+	top: 90px;
+	width: 100px;
+	height: 100px;
+}
+
+.hombre img{
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	width: 130px;
+	height: 130px;
+}
+
+.mujer1 img{
+	position: absolute;
+	left: 65%;
+	top: 90px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+.face img{
+position: absolute;
+	left: 65%;
+	top: 27px;
+	width: 2.8%;
+	height: auto;
+}
+
+.twitter img{
+	position: absolute;
+	left: 68.2%;
+	top: 28px;
+	width: 2.5%;
+	height: auto;
+}
+
+.insta img{
+	position: absolute;
+	left: 71%;
+	top: 28px;
+	width: 2.5%;
+	height: auto;
+}
+
+/* TITULARES */
+.title h3 {
+	position: absolute;
+	font-family: verdana;
+	font-weight: bold;
+}
+	.monitor h3{
+		left: 18%;
+		top: 56px;
+	}
+	.sobrepuesto h3 {
+		left: 48%;
+		top: 30%;
+	}
+
+	.hecho h3 {
+		left: 72%;
+		top: 30%;
+	}
+
+header h3{
+	font-size: 15px;
+	font-weight: normal;
+	display: inline;
+	position: relative;
+	left: 20%;
+}
+
+.titleboxBEF h3{
+	position: absolute;
+	left: 67px;
+	top: 40px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: left;
+}
+
+.boxH h3{
+    position: absolute;
+	top: 30px;
+	left:42%;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.titleMH h4{
+	position: absolute;
+	top: 180px;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: left;
+}
+
+	.mujer h4{
+		left: 26.9%;
+	}
+	.hombre h4{
+		left: 48.3%;
+	}
+
+	.mujer1 h4{
+		left: 66.5%;
+	}
+
+.END h4{
+	position: absolute;
+	left: 20.5%;
+	top: 45px;
+	font-size: 10px;
+	font-family: verdana;
+	text-align: left;
+}
+
+
+.END li{
+	position: relative;
+	left: 18%;
+	top: 20px;
+	display: inline-block;
+	color: #56B0E8;
+	font-family: verdana;
+	font-size: 10px;
+	padding: 5px;
+	border:0;
+	list-style-type:circle;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 400px){
+	.contenedor{
+		width: 100%;
+	}
+}
