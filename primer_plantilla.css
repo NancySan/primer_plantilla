@@ -16,14 +16,14 @@ grid-template-rows: minmax(30px, auto)
 					minmax(90px, auto);
 
 grid-template-areas: "header header"
-					 "box_head box_head"
+					"box_head box_head"
 					"boxA boxA"
 					"boxB boxC"
 					"boxD boxE"
 					"boxF boxG"
 					"boxH boxH"
 					"box_foot box_foot"
-					"END END"
+					"END END";
 }
 
 
@@ -37,6 +37,7 @@ grid-template-areas: "header header"
 	padding: 6px;
 	background-color:#13A2D5;
 	color:#FEFDFD;
+	box-sizing: border-box;
 }
 
 .sign{
@@ -63,6 +64,7 @@ grid-template-areas: "header header"
 	border-radius: 3px;
 	border: 0;
 	padding: 5px;
+	box-sizing: border-box;
 }
 
 .signin_email{
@@ -384,11 +386,4 @@ header h3{
 	list-style-type:circle;
 	box-sizing: border-box;
 }
-
-@media screen and (min-width: 400px){
-	.contenedor{
-		width: 100%;
-	}
-}
-
 
