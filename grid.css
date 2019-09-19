@@ -1,0 +1,215 @@
+@media screen and (max-width: 768px){
+	.contenedor{
+		grid-template-areas: "header header"
+					 "box_head box_head"
+					"boxA boxA" 
+					"boxC boxC"
+					"boxB boxB"
+					"boxD boxD"
+					"boxE boxE"
+					"boxG boxG"
+					"boxF boxF"
+					"boxH boxH"
+					"box_foot box_foot"
+					"END END";
+	}
+}
+
+/* MEDIA QUERIES BOTTOMS */
+@media screen and (max-width: 768px){
+    .box_head p{
+    	width: 100%;
+    	text-align: center;
+	    left: 3%;
+	    top: -14px;
+	    font-size: 26px;
+    }
+
+    .box_foot p{
+    width: 100%;
+	bottom: 30px;
+	left: 3%;
+	font-size: 22px;
+	}
+
+    .signin_email, .signin_email1{
+		width: 80%;
+		float:left;
+		left:10%;
+		display: block;
+		bottom: 20%;
+    }
+    	.signin_email{
+    		left: 10%;
+    		bottom: 30%;
+    	}
+		
+		.signin_email1{
+			left: 10%;
+    		bottom: 35%;
+    	}
+
+    .sign1, .sign2 {
+    	width: 80%;
+		float: left;
+		display: block;
+		}
+
+		.sign1{
+			left:10%;
+			top: 75%;
+		}
+		.sign2{
+			left:10%;
+			top: 70%;
+		}
+}
+
+/*MEDIA QUERIES boxA */
+@media screen and (max-width: 768px){
+.boxA{
+    width: 100%;
+	height: 540px;
+}
+
+	.monitor img{
+		width: 60px;
+		height: 60px;
+		left: 45%;
+		top: 18px;
+	}
+	.sobrepuesto img {
+		width: 80px;
+		height: 80px;
+		left: 43%;
+		top: 180px;
+	}
+
+	.hecho img{
+		width: 60px;
+		height: 60px;
+		left: 45%;
+		top: 360px;
+	}
+
+	.monitor h3{
+		left: 38%;
+		top: 56px;
+	}
+
+	.sobrepuesto h3 {
+		left: 45%;
+		top: 46%;
+	}
+
+	.hecho h3 {
+		left: 42%;
+		top: 75%;
+	}
+
+
+	.monitor p{
+    left: 30%;
+	}
+
+	.sobrepuesto p{
+		left: 28%;
+		top: 230px;
+	}
+
+	.hecho p{
+		left: 28%;
+		top: 390px;
+	}
+}
+
+/* MEDIA QUERIES boxH */
+@media screen and (max-width: 768px){
+.boxH{
+	width: 100%;
+	height: 700px;
+}
+
+	.boxH h3{
+		top: 10px;
+		left:33%;
+	}
+
+	.mujer p{
+	    left: 28%;
+	}
+	.hombre p{
+		top: 340px;
+		left: 28%;	
+	}
+
+	.mujer1 p{
+		top: 515px;
+		left: 28%;
+	}
+  
+	 .mujer img{
+		left: 43%;
+		top: 90px;
+	}
+
+	.hombre img{
+		left: 41%;
+		top: 260px;
+	}
+
+	.mujer1 img{
+		left: 43%;
+		top: 450px;
+	}
+
+	.mujer h4{
+		top: 180px;
+		left: 45%;
+	}
+	.hombre h4{
+		top: 360px;
+		left: 47%;
+	}
+
+	.mujer1 h4{
+		top: 535px;
+		left: 45.5%;
+	}
+
+}
+
+
+/* MEDIA QUERIES BOX END */
+@media screen and (max-width: 768px){
+	.END li{
+		left: 28%;
+		top: 0px;
+	}
+
+	.END h4{
+		left: 35%;
+		top: 22px;
+	}
+
+	.face img{
+		left: 40%;
+		top: 55px;
+		width: 4%;
+		height: auto;
+	}
+
+	.twitter img{
+		left: 48%;
+		top: 55px;
+		width: 4%;
+		height: auto;
+	}
+
+	.insta img{
+		left: 56%;
+		top: 55px;
+		width: 4%;
+		height: auto;
+	}
+}
