@@ -15,7 +15,7 @@
 	}
 }
 
-/* MEDIA QUERIES BOTTOMS */
+/* MEDIA QUERIES BOTTOMS 768px */
 @media screen and (max-width: 768px){
     .box_head p{
     	width: 100%;
@@ -64,6 +64,7 @@
 			top: 70%;
 		}
 }
+
 
 /*MEDIA QUERIES boxA */
 @media screen and (max-width: 768px){
@@ -123,6 +124,7 @@
 	}
 }
 
+
 /* MEDIA QUERIES boxH */
 @media screen and (max-width: 768px){
 .boxH{
@@ -176,7 +178,6 @@
 		top: 535px;
 		left: 45.5%;
 	}
-
 }
 
 
@@ -210,6 +211,241 @@
 		left: 56%;
 		top: 55px;
 		width: 4%;
+		height: auto;
+	}
+}
+
+
+
+/* MEDIA QUERIES BOTTOMS 320px */
+@media screen and (max-width: 320px){
+    .box_head p{
+    	width: 100%;
+    	text-align: center;
+	    left: 0%;
+	    top: -18px;
+	    font-size: 20px;
+    }
+
+    .box_foot p{
+    width: 100%;
+	bottom: 30px;
+	left: 0%;
+	font-size: 19px;
+	}
+
+    .signin_email, .signin_email1{
+		width: 80%;
+		float:left;
+		left:10%;
+		display: block;
+		bottom: 20%;
+    }
+    	.signin_email{
+    		left: 10%;
+    		bottom: 30%;
+    	}
+		
+		.signin_email1{
+			left: 10%;
+    		bottom: 35%;
+    	}
+
+    .sign1, .sign2 {
+    	width: 80%;
+		float: left;
+		display: block;
+		}
+
+		.sign1{
+			left:10%;
+			top: 72%;
+		}
+		.sign2{
+			left:10%;
+			top: 68%;
+		}
+}
+
+/*MEDIA QUERIES boxA */
+@media screen and (max-width: 320px){
+.boxA{
+    width: 100%;
+	height: 540px;
+}
+
+	.monitor img{
+		width: 50px;
+		height: 50px;
+		left: 36%;
+		top: 25px;
+	}
+	.sobrepuesto img {
+		width: 60px;
+		height: 60px;
+		left: 33%;
+		top: 200px;
+	}
+
+	.hecho img{
+		width: 50px;
+		height: 50px;
+		left: 36%;
+		top: 380px;
+	}
+
+	.monitor h3{
+		left: 23%;
+		top: 12%;
+		font-size: 15px;
+	}
+
+	.sobrepuesto h3 {
+		left: 34%;
+		top: 47%;
+		font-size: 15px;
+	}
+
+	.hecho h3 {
+		left: 26%;
+		top: 78%;
+		font-size: 15px;
+	}
+
+
+	.monitor p{
+	    left: -4%;
+	    top: 8%;
+	    font-size: 12px;
+	}
+
+	.sobrepuesto p{
+		left: -9%;
+		top: 43%;
+		font-size: 12px;
+	}
+
+	.hecho p{
+		left: -10%;
+		top: 74%;
+		font-size: 12px;
+	}
+}
+
+/*MEDIA QUERIES BOX BEF */
+@media screen and (max-width: 320px){
+	.boxB, .boxE, .boxF{
+		width: 100%;
+		height: 220px;
+	}
+		
+		.p1 p{
+		top: 5px;
+		left:-5%;
+		font-size: 13px;
+		}
+
+		.titleboxBEF h3{
+			top: 0px;
+			left: 55px;
+		}
+}
+
+/* MEDIA QUERIES boxH */
+@media screen and (max-width: 320px){
+.boxH{
+	width: 100%;
+	height: 700px;
+}
+
+	.boxH h3{
+		top: 10px;
+		left: 9.5px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.mujer p{
+	    left: 0%;
+	}
+	.hombre p{
+		top: 335px;
+		left: 0%;	
+	}
+
+	.mujer1 p{
+		top: 520px;
+		left: 0%;
+	}
+  
+	 .mujer img{
+		left: 30%;
+		top: 95px;
+	}
+
+	.hombre img{
+		left: 25%;
+		top: 260px;
+	}
+
+	.mujer1 img{
+		left: 30%;
+		top: 460px;
+	}
+
+	.mujer h4{
+		top: 185px;
+		left: 34%;
+	}
+	.hombre h4{
+		top: 360px;
+		left: 40%;
+	}
+
+	.mujer1 h4{
+		top: 545px;
+		left: 37%;
+	}
+
+}
+
+
+/* MEDIA QUERIES BOX END */
+@media screen and (max-width: 320px){
+	.END {
+	width: 100%;
+	height: 120px;
+	}
+
+	.END li{
+		display: inline;
+		left: -5%;
+		top: -5px;
+	}
+
+	.END h4{
+		left: 5%;
+		top: 42px;
+	}
+
+	.face img{
+		left: 20%;
+		top: 85px;
+		width: 8%;
+		height: auto;
+	}
+
+	.twitter img{
+		left: 45%;
+		top: 85px;
+		width: 7%;
+		height: auto;
+	}
+
+	.insta img{
+		left: 70%;
+		top: 85px;
+		width: 7%;
 		height: auto;
 	}
 }

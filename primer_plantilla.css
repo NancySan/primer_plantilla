@@ -171,26 +171,38 @@ header{
 
 .p p{
 	position: absolute;
-	top: 35px;
-	text-align: center;
-	font-size: 12px;
 	font-family: verdana;
 	color:black;
     padding: 50px;
     box-sizing: border-box;
+    top:30px;
+	left:3%;
+	text-align: left;
+	font-size: 15px;
 }
 
-	.monitor p{
-    left: 10%;
-	}
+		.monitor p{
+	    left: 8%;
+		}
 
-	.sobrepuesto p{
-		left: 34%;
-	}
+		.sobrepuesto p{
+			left: 34%;
+		}
 
-	.hecho p{
-		left: 60%;
-	}
+		.hecho p{
+			left: 62%;
+		}
+
+.p1 p{
+	position: absolute;
+	font-family: verdana;
+	color:black;
+    padding: 50px;
+    box-sizing: border-box;
+	text-align: center;
+	top: 35px;
+	font-size: 12px;
+}
 
 .parr p{
 	position: absolute;
